@@ -10,10 +10,15 @@
             font-family: Arial, sans-serif;
             background: linear-gradient(to right, #ff7e5f, #feb47b); /* 炫酷渐变背景 */
             color: white;
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             padding-bottom: 60px; /* 留出空间给悬浮WhatsApp按钮 */
+            text-align: center;
         }
-        
+
         .card {
             background: rgba(0, 0, 0, 0.6);
             margin: 20px auto;
@@ -22,6 +27,7 @@
             width: 80%;
             max-width: 900px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center; /* 使卡片内容居中 */
         }
 
         .card h2 {
@@ -51,7 +57,6 @@
         .whatsapp-btn:hover {
             background-color: #128C7E;
         }
-
     </style>
 </head>
 <body>
