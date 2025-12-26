@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok Shop · Wirausaha & Usaha Sampingan</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #f0f0f0; /* Deep white color */
+    background: 
+        linear-gradient(45deg, rgba(255,0,200,0.6), rgba(0,153,255,0.6), rgba(0,0,0,0.6)); /* Purple, Blue, Black gradient */
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite;
+}
+
+/* Gradient animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* TikTok pattern */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/TikTok_logo.svg/512px-TikTok_logo.svg.png");
+    background-size: 180px;
+    background-repeat: repeat;
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 20px 140px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 80px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/TikTok_logo.svg/512px-TikTok_logo.svg.png'); /* Adding TikTok image */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    padding: 60px 20px;
+    color: white;
+    border-radius: 16px;
+}
+
+.hero h1 {
+    font-size: 60px; /* Increased font size */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the heading bolder */
+}
+
+.hero p {
+    font-size: 24px; /* Increased font size */
+    color: #f0f0f0; /* Deep white color */
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 70px;
+}
+
+.section h2 {
+    font-size: 40px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Deep white color */
+}
+
+/* Adding background image for section */
+.section {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/TikTok_logo.svg/512px-TikTok_logo.svg.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.section p, .section li {
+    font-size: 22px; /* Increased font size */
+    color: #f0f0f0; /* Deep white color */
+    line-height: 1.7;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.card {
+    background: #007bff; /* Blue background */
+    border-radius: 16px;
+    padding: 26px;
+    backdrop-filter: blur(6px);
+    color: black; /* Black text color */
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px; /* Increased font size */
+    color: black; /* Black title text color */
+}
+
+.card p {
+    font-size: 18px;
+    color: black; /* Black text color for content */
+}
+
+/* WhatsApp floating button */
+.whatsapp-fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.whatsapp-fixed a {
+    background: #25D366;
+    color: #ffffff;
+    padding: 16px 28px;
+    border-radius: 40px;
+    font-size: 22px; /* Increased font size */
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    display: inline-block;
+}
+
+/* Link Section */
+.link-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link-section a {
+    color: #00bfff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #00bfff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.link-section a:hover {
+    background: #00bfff;
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero">
+        <h1>TikTok Shop · Wirausaha & Usaha Sampingan</h1>
+        <p>
+            Bangun usaha dan sumber penghasilan tambahan melalui TikTok Shop.<br>
+            Kami membantu proses pengaturan dan operasional awal — tanpa pengalaman dan tanpa tekanan untuk langsung memutuskan.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="features">
+            <div class="card">
+                <h3>Tanpa Pengalaman</h3>
+                <p>Cocok untuk pemula yang ingin memulai usaha di TikTok Shop.</p>
+            </div>
+            <div class="card">
+                <h3>Bisa Observasi Dulu</h3>
+                <p>Pelajari alurnya terlebih dahulu sebelum mengambil keputusan.</p>
+            </div>
+            <div class="card">
+                <h3>Bukan Kursus</h3>
+                <p>Pendekatan praktik dan pendampingan langsung, bukan teori semata.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Anda Tidak Berjalan Sendiri</h2>
+        <p>Kami mendampingi Anda langkah demi langkah dalam proses setup dan tahap awal operasional.</p>
+        <p>Anda bisa berjalan sesuai ritme sendiri, tanpa paksaan.</p>
+        <p>Semua keputusan tetap sepenuhnya di tangan Anda.</p>
+    </div>
+
+    <div class="section">
+        <h2>Apa yang Kami Bantu</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Pengaturan Toko</h3>
+                <p>Struktur akun dan konfigurasi dasar TikTok Shop.</p>
+            </div>
+            <div class="card">
+                <h3>Arah Produk</h3>
+                <p>Jenis produk yang umumnya efektif untuk dijual.</p>
+            </div>
+            <div class="card">
+                <h3>Panduan Harian</h3>
+                <p>Apa yang perlu dilakukan, dihindari, dan difokuskan.</p>
+            </div>
+            <div class="card">
+                <h3>Dukungan Berkelanjutan</h3>
+                <p>Pendampingan selama proses berjalan.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Bagaimana Kebanyakan Orang Memulai</h2>
+        <ul>
+            <li>Mereka melihat peluang TikTok Shop.</li>
+            <li>Mereka tertarik, tapi belum yakin apakah cocok.</li>
+            <li>Mereka berdiskusi, bergabung, dan mengamati proses.</li>
+            <li>Setelah itu, baru memutuskan langkah selanjutnya.</li>
+        </ul>
+        <p>Tidak ada tekanan. Tidak terburu-buru.</p>
+    </div>
+
+    <!-- Adding the link section -->
+    <div class="link-section">
+        <a href="https://tk.appshope.vip/" target="_blank">Kunjungi TikTok Shop</a>
+    </div>
+
+</div>
+
+<div class="whatsapp-fixed">
+    <a href="https://wa.me/6282313652591" target="_blank">
+        Hubungi via WhatsApp
+    </a>
+</div>
+
+</body>
+</html>
+<link rel="stylesheet" href="styles.css">
